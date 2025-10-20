@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./icons.css" />
+  <title>AI Integration</title>
+</head> 
+<body>
+  <h1 class="title__main">Ask Ally about Alloy guidelines!</h1>
+  <p class="instructional__text">We’ve Introducing Ally to help you quickly access the information you need for the Alloy Design System! Simply ask Ally about any Alloy guidelines — from colors, typography, and spacing to components like tables, buttons, and modals. Ally will provide clear, accurate answers instantly, making it easier than ever to design consistently and efficiently.</p>
+  <form class="flex-column" action="">
+    <span class="flex-row">
+      <label class="input__label">Discover insights</label>
+      <p id="status" style="color: black;"></p>
+    </span>
+
+    <textarea rows="4" cols="50" class="prompt__box" name="" id="question"></textarea>
+    <button class="button--ai" type="submit" id="ask">
+              <i class="fa fa-magic"></i>Ask Ally
+      </button>
+  </form>
+      <span class="flex-row">
+        <i class="fa fa-robot"></i>
+        <p id="response" class="response"></p>
+      </span>
+      <script src="./bundle.js" defer></script>
+</body>
+</html>

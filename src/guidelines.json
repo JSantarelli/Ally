@@ -1,0 +1,422 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-10-17T01:33:27.303Z",
+  "source": "https://alloy.symplr.com/latest/alloy/iframe.html?viewMode=docs&id=welcome--docs",
+  "categories": {
+    "welcome_to_alloy": {
+      "title": "Welcome to Alloy",
+      "content": [
+        "Alloy is a framework-agnostic UI Library containing reusable styles, web components, and guidelines."
+      ]
+    },
+    "content": {
+      "title": "Content",
+      "content": [
+        "Components: Our collection of framework-agnostic web components designed for symplr.",
+        "Theme: Our foundational styling for Alloy components and symplr applications.",
+        "Iconography: Our extensive library of icons for use in symplr applications."
+      ]
+    },
+    "principles": {
+      "title": "Principles",
+      "content": [
+        "Curation over invention: Alloy gathers and refines the best solutions from across our portfolios and the web more than it invents new solutions. Invention emerges from collaboration with product teams, SMEs, and usability experts.",
+        "Quality over speed: Alloy favors considered selection and enhancement of the best solutions over rushing them into the design system. New or anticipated Alloy features should rarely be in the critical path for a product release.",
+        "Pragmatism over ideology: Alloy accommodates the realities of platform or resource limitations and bends guidance to the doable rather than the perfect.",
+        "Reuse over one-off: Alloy provides guidelines and solutions for interactions that are common and/or ubiquitous. One-off scenarios are the domain of product teams."
+      ]
+    },
+    "curation_over_invention": {
+      "title": "Curation over invention",
+      "content": [
+        "Alloy gathers and refines the best solutions from across our portfolios and the web more than it invents new solutions. Invention emerges from collaboration with product teams, SMEs, and usability experts."
+      ]
+    },
+    "quality_over_speed": {
+      "title": "Quality over speed",
+      "content": [
+        "Alloy favors considered selection and enhancement of the best solutions over rushing them into the design system. New or anticipated Alloy features should rarely be in the critical path for a product release."
+      ]
+    },
+    "pragmatism_over_ideology": {
+      "title": "Pragmatism over ideology",
+      "content": [
+        "Alloy accommodates the realities of platform or resource limitations and bends guidance to the doable rather than the perfect."
+      ]
+    },
+    "reuse_over_one_off": {
+      "title": "Reuse over one-off",
+      "content": [
+        "Alloy provides guidelines and solutions for interactions that are common and/or ubiquitous. One-off scenarios are the domain of product teams."
+      ]
+    },
+    "accessibility": {
+      "title": "Accessibility",
+      "content": [
+        "Though the Alloy design system is not fully ADA compliant at this time, the Alloy team considers this a high priority initiative and is actively engaged in this effort.",
+        "Many components are already keyboard navigable and have been tested for color contrast."
+      ]
+    },
+    "resources": {
+      "title": "Resources",
+      "content": [
+        "Confluence",
+        "FAQs",
+        "GitHub",
+        "Support form",
+        "Support channel",
+        "Alloy team sprint review"
+      ]
+    },
+    "layout3": {
+      "title": "Layout",
+      "content": [
+        "Breakpoints define how the display property should be defined depending on the size.",
+        "To avoid jumps and shifts when a user moves from one page of your application to another, the Alloy design system advocates for the use of a layout grid when designing your application."
+      ]
+    },
+    "breakpoints": {
+      "title": "Breakpoints",
+      "content": [
+        "Small devices (landscape phones): 640px and up",
+        "Medium devices (tablets): 768px and up",
+        "Large devices (desktops): 1024px and up",
+        "Extra large devices (large desktops): 1280px and up",
+        "Double extra large devices (Ultra large desktops): 1536px and up"
+      ]
+    },
+    "grid_guidelines": {
+      "title": "Grid Guidelines",
+      "content": [
+        "Before constructing your application pages, consider the following recommendations with regard to the spacing of design elements."
+      ]
+    },
+    "standard_pages": {
+      "title": "Standard pages",
+      "content": [
+        "Example: Pages 1280px and up",
+        "Use a 12-column layout grid with 56px margins and 16px gutters.",
+        "Align with the first column of the 12-column layout grid.",
+        "Note: An exception to this rule would be in cases where primary navigation may hug the left side of the application.",
+        "Define the number of columns to be displayed instead of column width."
+      ]
+    },
+    "mobile": {
+      "title": "Mobile",
+      "content": [
+        "Use a 4-column layout grid with 16px margins and 16px gutters.",
+        "Define the number of columns to be displayed instead of column width.",
+        "Note: Top navigation and footer are currently in development."
+      ]
+    },
+    "spacing_guidelines": {
+      "title": "Spacing Guidelines",
+      "content": [
+        "For pages with breadcrumbs: 24px between application header and breadcrumbs, 16px between breadcrumb and top of page heading, optional 4px between page heading and instructional text.",
+        "If tabs exist below the page heading: 16px between page heading and tabs, 16px between tabs and grid or additional content element.",
+        "If no tabs exist below the page heading: 24px between page heading and next content element, 16px between content element and grid or additional content element.",
+        "For pages without breadcrumbs: 24px between application header and top of page heading, optional 4px between page heading and instructional text."
+      ]
+    },
+    "the_8_rule": {
+      "title": "The 8-Rule",
+      "content": [
+        "When in doubt, use multiples of eight to space the elements in your design.",
+        "This includes all padding and margin between elements.",
+        "Spacing values: 4px (xxs), 8px (xs), 16px (sm), 24px (md), 48px (lg), 96px (xl)"
+      ]
+    },
+    "typography_tokens": {
+      "title": "Typography tokens",
+      "content": [
+        "These lists contain all the typography tokens used within the Alloy theme.\nThe values of these tokens should not be used directly, instead components\nand applications should use the corresponding CSS variables.",
+        "Note: All tokens are mapped directly to CSS variables.",
+        "[data-radix-scroll-area-viewport] {\n  scrollbar-width: none;\n  -ms-overflow-style: none;\n  -webkit-overflow-scrolling: touch;\n}\n[data-radix-scroll-area-viewport]::-webkit-scrollbar {\n  display: none;\n}\n:where([data-radix-scroll-area-viewport]) {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n}\n:where([data-radix-scroll-area-content]) {\n  flex-grow: 1;\n}\n.my-selector {\n  font-size: var(--alloy-alias-type-bodyxl-size);\n}Copy",
+        "BodyHeadingSupportDisplayTokenValueExample--alloy-alias-type-bodyxl-fontLatoThis is the Way--alloy-alias-type-bodyxl-size1.125rem--alloy-alias-type-bodyxl-height1.5rem--alloy-alias-type-bodyxl-spacing0--alloy-alias-type-bodyxl-weight400--alloy-alias-type-bodyxlbold-fontLatoThis is the Way--alloy-alias-type-bodyxlbold-size1.125rem--alloy-alias-type-bodyxlbold-height1.5rem--alloy-alias-type-bodyxlbold-spacing0--alloy-alias-type-bodyxlbold-weight700--alloy-alias-type-bodyxllink-fontLatoThis is the Way--alloy-alias-type-bodyxllink-size1.125rem--alloy-alias-type-bodyxllink-height1.5rem--alloy-alias-type-bodyxllink-spacing0--alloy-alias-type-bodyxllink-weight400--alloy-alias-type-bodyxllink-decorationunderline--alloy-alias-type-bodylg-fontLatoThis is the Way--alloy-alias-type-bodylg-size1rem--alloy-alias-type-bodylg-height1.5rem--alloy-alias-type-bodylg-spacing0--alloy-alias-type-bodylg-weight400--alloy-alias-type-bodylgbold-fontLatoThis is the Way--alloy-alias-type-bodylgbold-size1rem--alloy-alias-type-bodylgbold-height1.5rem--alloy-alias-type-bodylgbold-spacing0--alloy-alias-type-bodylgbold-weight700--alloy-alias-type-bodylglink-fontLatoThis is the Way--alloy-alias-type-bodylglink-size1rem--alloy-alias-type-bodylglink-height1.5rem--alloy-alias-type-bodylglink-spacing0--alloy-alias-type-bodylglink-weight400--alloy-alias-type-bodylglink-decorationunderline--alloy-alias-type-bodymd-fontLatoThis is the Way--alloy-alias-type-bodymd-size0.875rem--alloy-alias-type-bodymd-height1.5rem--alloy-alias-type-bodymd-spacing0--alloy-alias-type-bodymd-weight400--alloy-alias-type-bodymdbold-fontLatoThis is the Way--alloy-alias-type-bodymdbold-size0.875rem--alloy-alias-type-bodymdbold-height1.5rem--alloy-alias-type-bodymdbold-spacing0--alloy-alias-type-bodymdbold-weight700--alloy-alias-type-bodymdlink-fontLatoThis is the Way--alloy-alias-type-bodymdlink-size0.875rem--alloy-alias-type-bodymdlink-height1.5rem--alloy-alias-type-bodymdlink-spacing0--alloy-alias-type-bodymdlink-weight400--alloy-alias-type-bodymdlink-decorationunderline--alloy-alias-type-bodysm-fontLatoThis is the Way--alloy-alias-type-bodysm-size0.75rem--alloy-alias-type-bodysm-height1.25rem--alloy-alias-type-bodysm-spacing0--alloy-alias-type-bodysm-weight400--alloy-alias-type-bodysmbold-fontLatoThis is the Way--alloy-alias-type-bodysmbold-size0.75rem--alloy-alias-type-bodysmbold-height1.25rem--alloy-alias-type-bodysmbold-spacing0--alloy-alias-type-bodysmbold-weight700--alloy-alias-type-bodysmlink-fontLatoThis is the Way--alloy-alias-type-bodysmlink-size0.75rem--alloy-alias-type-bodysmlink-height1.25rem--alloy-alias-type-bodysmlink-spacing0--alloy-alias-type-bodysmlink-weight400--alloy-alias-type-bodysmlink-decorationunderlineTokenValueExample--alloy-alias-type-headinglg-fontLatoThis is the Way--alloy-alias-type-headinglg-size2rem--alloy-alias-type-headinglg-height2.5rem--alloy-alias-type-headinglg-spacing0--alloy-alias-type-headinglg-weight700--alloy-alias-type-headinglgsemibold-fontLatoThis is the Way--alloy-alias-type-headinglgsemibold-size2rem--alloy-alias-type-headinglgsemibold-height2.5rem--alloy-alias-type-headinglgsemibold-spacing0--alloy-alias-type-headinglgsemibold-weight600--alloy-alias-type-headingmd-fontLatoThis is the Way--alloy-alias-type-headingmd-size1.5rem--alloy-alias-type-headingmd-height1.75rem--alloy-alias-type-headingmd-spacing0--alloy-alias-type-headingmd-weight700--alloy-alias-type-headingmdsemibold-fontLatoThis is the Way--alloy-alias-type-headingmdsemibold-size1.5rem--alloy-alias-type-headingmdsemibold-height1.75rem--alloy-alias-type-headingmdsemibold-spacing0--alloy-alias-type-headingmdsemibold-weight600--alloy-alias-type-headingsm-fontLatoThis is the Way--alloy-alias-type-headingsm-size1.25rem--alloy-alias-type-headingsm-height1.5rem--alloy-alias-type-headingsm-spacing0--alloy-alias-type-headingsm-weight700--alloy-alias-type-headingsmsemibold-fontLatoThis is the Way--alloy-alias-type-headingsmsemibold-size1.25rem--alloy-alias-type-headingsmsemibold-height1.5rem--alloy-alias-type-headingsmsemibold-spacing0--alloy-alias-type-headingsmsemibold-weight600--alloy-alias-type-headingxs-fontLatoThis is the Way--alloy-alias-type-headingxs-size1rem--alloy-alias-type-headingxs-height1.25rem--alloy-alias-type-headingxs-spacing0--alloy-alias-type-headingxs-weight700--alloy-alias-type-headingxssemibold-fontLatoThis is the Way--alloy-alias-type-headingxssemibold-size1rem--alloy-alias-type-headingxssemibold-height1.25rem--alloy-alias-type-headingxssemibold-spacing0--alloy-alias-type-headingxssemibold-weight600TokenValueExample--alloy-alias-type-supportlabelmd-fontLatoThis is the Way--alloy-alias-type-supportlabelmd-size0.875rem--alloy-alias-type-supportlabelmd-height1.25rem--alloy-alias-type-supportlabelmd-spacing0--alloy-alias-type-supportlabelmd-weight700--alloy-alias-type-supportlabelsm-fontLatoThis is the Way--alloy-alias-type-supportlabelsm-size0.75rem--alloy-alias-type-supportlabelsm-height1rem--alloy-alias-type-supportlabelsm-spacing0--alloy-alias-type-supportlabelsm-weight700--alloy-alias-type-supportsubheadlg-fontLatoThis is the Way--alloy-alias-type-supportsubheadlg-size1rem--alloy-alias-type-supportsubheadlg-height1.5rem--alloy-alias-type-supportsubheadlg-spacing0.02rem--alloy-alias-type-supportsubheadlg-weight600--alloy-alias-type-supportsubheadlg-transformuppercase--alloy-alias-type-supportsubheadmd-fontLatoThis is the Way--alloy-alias-type-supportsubheadmd-size0.875rem--alloy-alias-type-supportsubheadmd-height1.5rem--alloy-alias-type-supportsubheadmd-spacing0.02rem--alloy-alias-type-supportsubheadmd-weight600--alloy-alias-type-supportsubheadmd-transformuppercase--alloy-alias-type-supportsubheadsm-fontLatoThis is the Way--alloy-alias-type-supportsubheadsm-size0.75rem--alloy-alias-type-supportsubheadsm-height1.25rem--alloy-alias-type-supportsubheadsm-spacing0.02rem--alloy-alias-type-supportsubheadsm-weight600--alloy-alias-type-supportsubheadsm-transformuppercaseTokenValueExample--alloy-alias-type-displaylg-fontLatoThis is the Way--alloy-alias-type-displaylg-size3.5rem--alloy-alias-type-displaylg-height4.5rem--alloy-alias-type-displaylg-spacing0--alloy-alias-type-displaylg-weight800--alloy-alias-type-displaymd-fontLatoThis is the Way--alloy-alias-type-displaymd-size3rem--alloy-alias-type-displaymd-height4rem--alloy-alias-type-displaymd-spacing0--alloy-alias-type-displaymd-weight800--alloy-alias-type-displaysm-fontLatoThis is the Way--alloy-alias-type-displaysm-size2.5rem--alloy-alias-type-displaysm-height3.5rem--alloy-alias-type-displaysm-spacing0--alloy-alias-type-displaysm-weight800"
+      ]
+    },
+    "tokens": {
+    "title": "Tokens",
+      "content": [
+        "These lists contain all the color tokens used within the Alloy theme.\nThe hex values of these colors should not be used directly, instead components\nand applications should use the corresponding CSS variables.",
+        "[data-radix-scroll-area-viewport] {\n scrollbar-width: none;\n -ms-overflow-style: none;\n -webkit-overflow-scrolling: touch;\n}\n[data-radix-scroll-area-viewport]::-webkit-scrollbar {\n display: none;\n}\n:where([data-radix-scroll-area-viewport]) {\n display: flex;\n flex-direction: column;\n align-items: stretch;\n}\n:where([data-radix-scroll-area-content]) {\n flex-grow: 1;\n}\nbody {\n background: var(--alloy-alias-color-background-default);\n}Copy",
+        "There are two categories of color tokens that comprise the theme. Alias and Component tokens.",
+        "Alias tokens are used to define the specific cases in which a referenced\ncolor value should be used. Alias token names reference what the token is\nintended for (e.g., backgrounds, borders, text, data visualizations,\ngraphics, and status) and never the actual value (e.g., skyblue-tint-10).",
+        "Component tokens are used for specific components (e.g., data tables,\nbuttons, and links) where overwriting specific values may be needed.\nComponent token names reference what the token is intended for (e.g.,\ntable and button backgrounds, borders, and text) and never the actual\nvalue (e.g., mediumblue-shade-70).",
+        "AliasComponentBackgroundTokenSwatch--alloy-alias-color-background-ai-default--alloy-alias-color-background-ai-strong--alloy-alias-color-background-ai-subtle--alloy-alias-color-background-alt-dark--alloy-alias-color-background-alt-strong--alloy-alias-color-background-dark--alloy-alias-color-background-default--alloy-alias-color-background-light--alloy-alias-color-background-midtone--alloy-alias-color-background-primary-default--alloy-alias-color-background-primary-light--alloy-alias-color-background-primary-strong--alloy-alias-color-background-primary-subtle--alloy-alias-color-background-secondary-default--alloy-alias-color-background-secondary-strong--alloy-alias-color-background-secondary-subtle--alloy-alias-color-background-strong--alloy-alias-color-background-subtleBorderTokenSwatch--alloy-alias-color-border-ai-default--alloy-alias-color-border-ai-strong--alloy-alias-color-border-ai-subtle--alloy-alias-color-border-dark--alloy-alias-color-border-default--alloy-alias-color-border-light--alloy-alias-color-border-midtone--alloy-alias-color-border-primary-default--alloy-alias-color-border-primary-subtle--alloy-alias-color-border-secondary-default--alloy-alias-color-border-secondary-strong--alloy-alias-color-border-secondary-subtle--alloy-alias-color-border-strong--alloy-alias-color-border-subtleTextTokenSwatch--alloy-alias-color-text-ai-default--alloy-alias-color-text-ai-strong--alloy-alias-color-text-alt-default--alloy-alias-color-text-brand-default--alloy-alias-color-text-default--alloy-alias-color-text-light--alloy-alias-color-text-midtone--alloy-alias-color-text-primary-default--alloy-alias-color-text-primary-strong--alloy-alias-color-text-secondary-default--alloy-alias-color-text-secondary-strong--alloy-alias-color-text-strong--alloy-alias-color-text-subtleDataTokenSwatch--alloy-alias-color-data-default-01--alloy-alias-color-data-default-01-dark--alloy-alias-color-data-default-01-light--alloy-alias-color-data-default-02--alloy-alias-color-data-default-02-dark--alloy-alias-color-data-default-02-light--alloy-alias-color-data-default-03--alloy-alias-color-data-default-03-dark--alloy-alias-color-data-default-03-light--alloy-alias-color-data-default-04--alloy-alias-color-data-default-04-dark--alloy-alias-color-data-default-04-light--alloy-alias-color-data-default-05--alloy-alias-color-data-default-05-dark--alloy-alias-color-data-default-05-light--alloy-alias-color-data-default-06--alloy-alias-color-data-default-06-dark--alloy-alias-color-data-default-06-light--alloy-alias-color-data-default-07--alloy-alias-color-data-default-07-dark--alloy-alias-color-data-default-07-light--alloy-alias-color-data-default-08--alloy-alias-color-data-default-08-dark--alloy-alias-color-data-default-08-light--alloy-alias-color-data-default-09--alloy-alias-color-data-default-09-dark--alloy-alias-color-data-default-09-light--alloy-alias-color-data-default-10--alloy-alias-color-data-default-10-dark--alloy-alias-color-data-default-10-light--alloy-alias-color-data-default-11--alloy-alias-color-data-default-11-dark--alloy-alias-color-data-default-11-light--alloy-alias-color-data-default-12--alloy-alias-color-data-default-12-dark--alloy-alias-color-data-default-12-light--alloy-alias-color-data-default-13--alloy-alias-color-data-default-13-dark--alloy-alias-color-data-default-13-light--alloy-alias-color-data-default-14--alloy-alias-color-data-default-14-dark--alloy-alias-color-data-default-14-lightGraphicTokenSwatch--alloy-alias-color-graphic-ai-default--alloy-alias-color-graphic-brand--alloy-alias-color-graphic-dark--alloy-alias-color-graphic-default--alloy-alias-color-graphic-light--alloy-alias-color-graphic-midtone--alloy-alias-color-graphic-primary--alloy-alias-color-graphic-secondary--alloy-alias-color-graphic-strong--alloy-alias-color-graphic-subtleStatusTokenSwatch--alloy-alias-color-status-critical-default--alloy-alias-color-status-critical-midtone--alloy-alias-color-status-critical-strong--alloy-alias-color-status-critical-subtle--alloy-alias-color-status-draft-default--alloy-alias-color-status-draft-midtone--alloy-alias-color-status-draft-strong--alloy-alias-color-status-draft-subtle--alloy-alias-color-status-info-default--alloy-alias-color-status-info-midtone--alloy-alias-color-status-info-strong--alloy-alias-color-status-info-subtle--alloy-alias-color-status-new-default--alloy-alias-color-status-new-midtone--alloy-alias-color-status-new-strong--alloy-alias-color-status-new-subtle--alloy-alias-color-status-success-default--alloy-alias-color-status-success-midtone--alloy-alias-color-status-success-strong--alloy-alias-color-status-success-subtle--alloy-alias-color-status-warning-default--alloy-alias-color-status-warning-midtone--alloy-alias-color-status-warning-strong--alloy-alias-color-status-warning-subtleTableTokenSwatch--alloy-comp-color-table-background-default--alloy-comp-color-table-background-light--alloy-comp-color-table-background-subtle--alloy-comp-color-table-border-default--alloy-comp-color-table-border-light--alloy-comp-color-table-border-strong--alloy-comp-color-table-strong--alloy-comp-color-table-text-defaultActionTokenSwatch--alloy-comp-color-action-aiiconcta-background-default--alloy-comp-color-action-aiiconcta-background-hover--alloy-comp-color-action-aiiconcta-background-pressed--alloy-comp-color-action-aiiconcta-border-default--alloy-comp-color-action-aiiconcta-border-focus--alloy-comp-color-action-aiiconcta-graphic-default--alloy-comp-color-action-aiiconcta-text-default--alloy-comp-color-action-aiiconcta-text-hover--alloy-comp-color-action-aiiconcta-text-pressed--alloy-comp-color-action-aiprimarycta-background-default--alloy-comp-color-action-aiprimarycta-background-hover--alloy-comp-color-action-aiprimarycta-background-pressed--alloy-comp-color-action-aiprimarycta-border-default--alloy-comp-color-action-aiprimarycta-border-focus--alloy-comp-color-action-aiprimarycta-graphic-default--alloy-comp-color-action-aiprimarycta-text-default--alloy-comp-color-action-aiprimarycta-text-hover--alloy-comp-color-action-aiprimarycta-text-pressed--alloy-comp-color-action-aisecondarycta-background-default--alloy-comp-color-action-aisecondarycta-background-hover--alloy-comp-color-action-aisecondarycta-background-pressed--alloy-comp-color-action-aisecondarycta-border-default--alloy-comp-color-action-aisecondarycta-border-focus--alloy-comp-color-action-aisecondarycta-graphic-default--alloy-comp-color-action-aisecondarycta-text-default--alloy-comp-color-action-aisecondarycta-text-hover--alloy-comp-color-action-aisecondarycta-text-pressed--alloy-comp-color-action-aitertiarycta-background-default--alloy-comp-color-action-aitertiarycta-background-hover--alloy-comp-color-action-aitertiarycta-background-pressed--alloy-comp-color-action-aitertiarycta-border-default--alloy-comp-color-action-aitertiarycta-border-focus--alloy-comp-color-action-aitertiarycta-graphic-default--alloy-comp-color-action-aitertiarycta-text-default--alloy-comp-color-action-aitertiarycta-text-hover--alloy-comp-color-action-aitertiarycta-text-pressed--alloy-comp-color-action-iconcta-background-default--alloy-comp-color-action-iconcta-background-hover--alloy-comp-color-action-iconcta-background-pressed--alloy-comp-color-action-iconcta-border-default--alloy-comp-color-action-iconcta-border-focus--alloy-comp-color-action-iconcta-graphic-default--alloy-comp-color-action-iconcta-text-default--alloy-comp-color-action-iconcta-text-hover--alloy-comp-color-action-iconcta-text-pressed--alloy-comp-color-action-link-border-focus--alloy-comp-color-action-link-text-default--alloy-comp-color-action-primarycta-background-default--alloy-comp-color-action-primarycta-background-hover--alloy-comp-color-action-primarycta-background-pressed--alloy-comp-color-action-primarycta-border-default--alloy-comp-color-action-primarycta-border-focus--alloy-comp-color-action-primarycta-graphic-default--alloy-comp-color-action-primarycta-text-default--alloy-comp-color-action-primarycta-text-hover--alloy-comp-color-action-primarycta-text-pressed--alloy-comp-color-action-secondarycta-background-default--alloy-comp-color-action-secondarycta-background-hover--alloy-comp-color-action-secondarycta-background-pressed--alloy-comp-color-action-secondarycta-border-default--alloy-comp-color-action-secondarycta-border-focus--alloy-comp-color-action-secondarycta-graphic-default--alloy-comp-color-action-secondarycta-text-default--alloy-comp-color-action-secondarycta-text-hover--alloy-comp-color-action-secondarycta-text-pressed--alloy-comp-color-action-tertiarycta-background-default--alloy-comp-color-action-tertiarycta-background-hover--alloy-comp-color-action-tertiarycta-background-pressed--alloy-comp-color-action-tertiarycta-border-default--alloy-comp-color-action-tertiarycta-border-focus--alloy-comp-color-action-tertiarycta-graphic-default--alloy-comp-color-action-tertiarycta-text-default--alloy-comp-color-action-tertiarycta-text-hover--alloy-comp-color-action-tertiarycta-text-pressed"
+      ]
+      },
+      "semantic_slots_deprecated": {
+      "title": "Semantic slots (Deprecated)",
+      "content": [
+        "After much thought and consideration, Alloy is no longer maintaining and supporting semantic slots.",
+        "If you've been using semantic slots for colors, we'd encourage you to begin using the color tokens outlined above. These can be consumed much easier with no need for a CSS pre-processor (e.g. Sass). Semantic slots will be removed in the next major release.",
+        "For information on migrating from semantic slots to tokens, check out our color migration guide",
+        "These lists contain all the semantic slots used within the Alloy theme.\nComponents and applications should not use the hex values of these colors\ndirectly, Instead they should use the provided get-semantic-slot\nscss function",
+        "Accordionaccordion.header.backgroundaccordion.header.textaccordion.item.backgroundaccordion.item.background--hoveraccordion.item.background--pressedaccordion.item.borderaccordion.item.border--disabledAlertSuccessalert.success.borderalert.success.backgroundalert.success.iconalert.success.textInfoalert.info.borderalert.info.backgroundalert.info.iconalert.info.textWarningalert.warning.borderalert.warning.backgroundalert.warning.iconalert.warning.textErroralert.error.borderalert.error.backgroundalert.error.iconalert.error.textBodybody.accentbody.backgroundbody.borderbody.contentbody.disabled.iconbody.disabled.textbody.dividerbody.iconbody.textbody.header.altbackgroundbody.header.altbackground--hoverbody.header.altbackground--pressedbody.header.backgroundbody.header.background--hoverbody.header.background--pressedbody.header.iconbody.header.textbody.overlaybody.highlightbody.highlight--hoverbody.highlight--focusbody.shadowButtonsPrimarybutton.primary.backgroundbutton.primary.background--hoverbutton.primary.background--pressedbutton.primary.borderbutton.primary.backgroundbutton.primary.border--focusbutton.primary.textbutton.primary.text--hoverbutton.primary.text--pressedbutton.primary.disabled.backgroundbutton.primary.disabled.borderbutton.primary.disabled.textSecondarybutton.secondary.backgroundbutton.secondary.background--hoverbutton.secondary.background--pressedbutton.secondary.borderbutton.secondary.backgroundbutton.secondary.border--focusbutton.secondary.textbutton.secondary.text--hoverbutton.secondary.text--pressedbutton.secondary.disabled.backgroundbutton.secondary.disabled.borderbutton.secondary.disabled.textTertiarybutton.tertiary.backgroundbutton.tertiary.background--hoverbutton.tertiary.background--pressedbutton.tertiary.borderbutton.tertiary.backgroundbutton.tertiary.border--focusbutton.tertiary.textbutton.tertiary.text--hoverbutton.tertiary.text--pressedbutton.tertiary.disabled.backgroundbutton.tertiary.disabled.borderbutton.tertiary.disabled.textIconbutton.icon.backgroundbutton.icon.background--hoverbutton.icon.background--pressedbutton.icon.borderbutton.icon.backgroundbutton.icon.border--focusbutton.icon.textbutton.icon.text--hoverbutton.icon.text--pressedbutton.icon.disabled.backgroundbutton.icon.disabled.borderbutton.icon.disabled.textCalendarcalendar.backgroundcalendar.bordercalendar.border--focuscalendar.day.background--activecalendar.day.border--focuscalendar.day.textcalendar.disabled.iconcalendar.disabled.textcalendar.iconcalendar.linkcalendar.list.textcalendar.range.backgroundcalendar.textCardcard.backgroundcard.background--hovercard.background--pressedcard.bordercard.border--focuscard.textChipSuccesschip.success.borderchip.success.backgroundchip.success.dismisschip.success.iconchip.success.textInfochip.info.borderchip.info.backgroundchip.info.dismisschip.info.iconchip.info.textWarningchip.warning.borderchip.warning.backgroundchip.warning.dismisschip.warning.iconchip.warning.textErrorchip.error.borderchip.error.backgroundchip.error.dismisschip.error.iconchip.error.textContext Menucontext-menu.backgroundcontext-menu.dividercontext-menu.headercontext-menu.item.backgroundcontext-menu.item.background--hovercontext-menu.item.background--pressedcontext-menu.item.iconcontext-menu.item.secondary-textcontext-menu.item.textcontext-menu.item.text--hovercontext-menu.tabs.background--hoverDatadata.default.01data.default.02data.default.03data.default.04data.default.05data.default.06data.default.07data.default.08data.default.09data.default.10data.default.11data.default.12data.default.13data.default.14Inputsinput.borderinput.border--focusinput.border--hoverinput.backgroundinput.descriptioninput.iconinput.icon--hoverinput.labelinput.label--requiredinput.shadowinput.shadow--focusinput.shadow--hoverinput.numberinput.number--hoverinput.textinput.text--hoverinput.placeholderinput.disabled.backgroundinput.disabled.borderinput.disabled.iconinput.disabled.textinput.disabled.labelTextinput.invalid.borderinput.invalid.iconinput.invalid.labelTextinput.invalid.textinput.invalid.shadowinput.invalid.shadow--focusinput.populated.borderinput.control.backgroundinput.control.borderinput.control.foregroundinput.control.altbackgroundinput.control.altbackground--hoverLinklink.textlink.text--hoverListlist.backgroundlist.borderlist.dividerlist.field.borderlist.header.backgroundlist.invalid.borderlist.item.backgroundlist.item.background--hoverlist.item.background--pressedlist.item.borderlist.item.iconlist.item.textlist.item.secondary-textMenumenu.item.backgroundmenu.item.background--activemenu.item.background--hovermenu.item.iconmenu.item.icon--activemenu.item.icon--hovermenu.item.textmenu.item.text--activemenu.item.text--hoverSpinnerspinner.iconspinner.textStepperstepper.backgroundstepper.background--activestepper.borderstepper.border--activestepper.border--completedstepper.iconstepper.icon--activestepper.icon--completedstepper.textstepper.text--activestepper.text--completedstepper.disabled.backgroundstepper.disabled.borderstepper.disabled.iconstepper.disabled.textstepper.invalid.backgroundstepper.invalid.borderstepper.invalid.iconstepper.invalid.textTablestable.row.backgroundtable.row.background--activetable.row.bordertable.row.border--hovertable.row.texttable.header.backgroundtable.header.bordertable.header.icontable.header.texttable.footer.backgroundtable.footer.bordertable.footer.text"
+      ]
+    },
+    "layout2": {
+      "title": "Layout",
+      "content": [
+        "BreakpointsGridSpacingBreakpointsBreakpoints define how the display property should be defined depending on the size.\n[data-radix-scroll-area-viewport] {\n  scrollbar-width: none;\n  -ms-overflow-style: none;\n  -webkit-overflow-scrolling: touch;\n}\n[data-radix-scroll-area-viewport]::-webkit-scrollbar {\n  display: none;\n}\n:where([data-radix-scroll-area-viewport]) {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n}\n:where([data-radix-scroll-area-content]) {\n  flex-grow: 1;\n}\n// Small devices (landscape phones, 640px and up)\n@media (min-width: 640px) {\n  ...;\n}\n\n// Medium devices (tablets, 768px and up)\n@media (min-width: 768px) {\n  ...;\n}\n\n// Large devices (desktops, 1024px and up)\n@media (min-width: 1024px) {\n  ...;\n}\n\n// Extra large devices (large desktops, 1280px and up)\n@media (min-width: 1280px) {\n  ...;\n}\n\n// Double extra large devices (Ultra large desktops, 1536px and up)\n@media (min-width: 1536px) {\n  ...;\n}CopyGuidelinesTo avoid jumps and shifts when a user moves from one page of your application to another, the Alloy design system advocates for the use of a layout grid when designing your application.Standard pagesExample: Pages 1280 px+Use a 12-column layout grid with 56 px (margins) and 16 px (gutters).Align with the first column of the 12-column layout grid.Note: An exception to this rule would be in cases where primary navigation may hug the left side of the application.\nDefine the number of columns to be displayed instead of column width.MobileUse a 4-column layout grid with 16 px (margins) and 16 px (gutters).Define the number of columns to be displayed instead of column width.Note: Top navigation and footer are currently in development.\nGuidelinesBefore constructing your application pages, consider the following recommendations with regard to the spacing of design elements:For pages with breadcrumbs use ...24 px between application header and breadcrumbs16 px between breadcrumb and top of page headingOptional: 4 px between page heading and instructional textIf tabs exist below the page heading (or instructional text):16 px between page heading (or instructional text) and tabs16 px between tabs and grid or additional content elementIf no tabs exist below the page heading (or instructional text):24 px between page heading (or instructional text) and next content element16 px between content element and grid or additional content elementFor pages without breadcrumbs use ...24 px between application header and top of page headingOptional: 4 px between page heading and instructional textIf tabs exist below the page heading (or instructional text):16 px between page heading (or instructional text) and tabs16 px between tabs and grid or additional content elementIf no tabs exist below the page heading (or instructional text):24 px between page heading (or instructional text) and next content element16 px between content element and grid or additional content elementThe \"8-Rule\"When in doubt, use multiples of eight to space the elements in your design.This includes all padding/margin between elements.\nSpacingSass variable4 pxget-spacing('xxs')8 pxget-spacing('xs')16 pxget-spacing('sm')24 pxget-spacing('md')48 pxget-spacing('lg')96 pxget-spacing('xl')"
+      ]
+    },
+    "breakpoints2": {
+      "title": "Breakpoints",
+      "content": [
+        "Breakpoints define how the display property should be defined depending on the size.",
+        "[data-radix-scroll-area-viewport] {\n  scrollbar-width: none;\n  -ms-overflow-style: none;\n  -webkit-overflow-scrolling: touch;\n}\n[data-radix-scroll-area-viewport]::-webkit-scrollbar {\n  display: none;\n}\n:where([data-radix-scroll-area-viewport]) {\n  display: flex;\n  flex-direction: column;\n  align-items: stretch;\n}\n:where([data-radix-scroll-area-content]) {\n  flex-grow: 1;\n}\n// Small devices (landscape phones, 640px and up)\n@media (min-width: 640px) {\n  ...;\n}\n\n// Medium devices (tablets, 768px and up)\n@media (min-width: 768px) {\n  ...;\n}\n\n// Large devices (desktops, 1024px and up)\n@media (min-width: 1024px) {\n  ...;\n}\n\n// Extra large devices (large desktops, 1280px and up)\n@media (min-width: 1280px) {\n  ...;\n}\n\n// Double extra large devices (Ultra large desktops, 1536px and up)\n@media (min-width: 1536px) {\n  ...;\n}Copy"
+      ]
+    },
+    "guidelines": {
+      "title": "Guidelines",
+      "content": [
+        "Before constructing your application pages, consider the following recommendations with regard to the spacing of design elements:",
+        "For pages with breadcrumbs use ...",
+        "24 px between application header and breadcrumbs16 px between breadcrumb and top of page headingOptional: 4 px between page heading and instructional text",
+        "If tabs exist below the page heading (or instructional text):",
+        "16 px between page heading (or instructional text) and tabs16 px between tabs and grid or additional content element",
+        "If no tabs exist below the page heading (or instructional text):",
+        "24 px between page heading (or instructional text) and next content element16 px between content element and grid or additional content element",
+        "For pages without breadcrumbs use ...",
+        "24 px between application header and top of page headingOptional: 4 px between page heading and instructional text",
+        "If tabs exist below the page heading (or instructional text):",
+        "16 px between page heading (or instructional text) and tabs16 px between tabs and grid or additional content element",
+        "If no tabs exist below the page heading (or instructional text):",
+        "24 px between page heading (or instructional text) and next content element16 px between content element and grid or additional content element"
+      ]
+    },
+    "standard_pages2": {
+      "title": "Standard pages",
+      "content": [
+        "Example: Pages 1280 px+",
+        "Use a 12-column layout grid with 56 px (margins) and 16 px (gutters).Align with the first column of the 12-column layout grid.",
+        "Note: An exception to this rule would be in cases where primary navigation may hug the left side of the application.",
+        "Define the number of columns to be displayed instead of column width."
+      ]
+    },
+    "mobile2": {
+      "title": "Mobile",
+      "content": [
+        "Use a 4-column layout grid with 16 px (margins) and 16 px (gutters).Define the number of columns to be displayed instead of column width.",
+        "Note: Top navigation and footer are currently in development."
+      ]
+    },
+    "the_8_rule2": {
+      "title": "The \"8-Rule\"",
+      "content": [
+        "When in doubt, use multiples of eight to space the elements in your design.",
+        "This includes all padding/margin between elements.",
+        "SpacingSass variable4 pxget-spacing('xxs')8 pxget-spacing('xs')16 pxget-spacing('sm')24 pxget-spacing('md')48 pxget-spacing('lg')96 pxget-spacing('xl')"
+      ]
+    },
+      "properties2": {
+      "title": "Properties",
+      "content": [
+        "PropertyAttributeDescriptionTypeDefaultcountcountCount for Button.numberundefineddisableddisabledDetermines whether button is disabled.booleanfalseiconiconIcon for button.stringundefinediconPositionicon-positionIcon position for button.\"left\" \\| \"right\"'left'sizesizeSize of Button.\"lg\" \\| \"sm\" \\| \"xs\"'sm'texttextText for Button.stringundefinedtypetypeType of Button.\"button\" \\| \"reset\" \\| \"submit\"'button'"
+      ]
+    },
+    "variations2": {
+    "title": "Variations",
+    "content": [
+      "Listed below are variations of the component."
+    ]
+    },
+    "stories2": {
+    "title": "Stories",
+    "content": [
+      "Default\n   \n  PrimaryShow code",
+      "Icon Position\n   \n  PrimaryShow code",
+      "Count\n   \n  Primary37Show code",
+      "Icon With Count\n   \n  Primary42Show code",
+      "Templated Content\n   \n  Show code",
+      "symplrAI\n   \n  symplrAIShow code",
+      "Star Wars, the Star Wars logo, all names and pictures of Star Wars characters,\nvehicles, and any other Star Wars related items are registered trademarks\nand/or copyrights of Lucasfilm Ltd., or their respective trademark and\ncopyright holders."
+    ]
+    },
+    "used_by": {
+    "title": "Used by",
+    "content": [
+      "sympl-calendar-footersympl-dialogsympl-overlay-panelsympl-split-buttonsympl-toast-item"
+    ]
+    },
+    "depends_on": {
+    "title": "Depends on",
+    "content": [
+      "sympl-iconsympl-count"
+    ]
+    },
+    "graph2": {
+    "title": "Graph",
+    "content": [
+      "#mermaid-1760708711350{font-family:Lato;font-size:0.875rem;fill:var(--alloy-alias-color-text-light);}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mermaid-1760708711350 .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mermaid-1760708711350 .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mermaid-1760708711350 .error-icon{fill:#552222;}#mermaid-1760708711350 .error-text{fill:#552222;stroke:#552222;}#mermaid-1760708711350 .edge-thickness-normal{stroke-width:1px;}#mermaid-1760708711350 .edge-thickness-thick{stroke-width:3.5px;}#mermaid-1760708711350 .edge-pattern-solid{stroke-dasharray:0;}#mermaid-1760708711350 .edge-thickness-invisible{stroke-width:0;fill:none;}#mermaid-1760708711350 .edge-pattern-dashed{stroke-dasharray:3;}#mermaid-1760708711350 .edge-pattern-dotted{stroke-dasharray:2;}#mermaid-1760708711350 .marker{fill:var(--alloy-alias-color-border-default);stroke:var(--alloy-alias-color-border-default);}#mermaid-1760708711350 .marker.cross{stroke:var(--alloy-alias-color-border-default);}#mermaid-1760708711350 svg{font-family:Lato;font-size:0.875rem;}#mermaid-1760708711350 p{margin:0;}#mermaid-1760708711350 .label{font-family:Lato;color:var(--alloy-alias-color-text-light);}#mermaid-1760708711350 .cluster-label text{fill:var(--alloy-alias-color-text-light);}#mermaid-1760708711350 .cluster-label span{color:var(--alloy-alias-color-text-light);}#mermaid-1760708711350 .cluster-label span p{background-color:transparent;}#mermaid-1760708711350 .label text,#mermaid-1760708711350 span{fill:var(--alloy-alias-color-text-light);color:var(--alloy-alias-color-text-light);}#mermaid-1760708711350 .node rect,#mermaid-1760708711350 .node circle,#mermaid-1760708711350 .node ellipse,#mermaid-1760708711350 .node polygon,#mermaid-1760708711350 .node path{fill:var(--alloy-alias-color-data-default-08);stroke:#000;stroke-width:1px;}#mermaid-1760708711350 .rough-node .label text,#mermaid-1760708711350 .node .label text,#mermaid-1760708711350 .image-shape .label,#mermaid-1760708711350 .icon-shape .label{text-anchor:middle;}#mermaid-1760708711350 .node .katex path{fill:#000;stroke:#000;stroke-width:1px;}#mermaid-1760708711350 .rough-node .label,#mermaid-1760708711350 .node .label,#mermaid-1760708711350 .image-shape .label,#mermaid-1760708711350 .icon-shape .label{text-align:center;}#mermaid-1760708711350 .node.clickable{cursor:pointer;}#mermaid-1760708711350 .root .anchor path{fill:var(--alloy-alias-color-border-default)!important;stroke-width:0;stroke:var(--alloy-alias-color-border-default);}#mermaid-1760708711350 .arrowheadPath{fill:#333333;}#mermaid-1760708711350 .edgePath .path{stroke:var(--alloy-alias-color-border-default);stroke-width:2.0px;}#mermaid-1760708711350 .flowchart-link{stroke:var(--alloy-alias-color-border-default);fill:none;}#mermaid-1760708711350 .edgeLabel{background-color:rgba(232,232,232, 0.8);text-align:center;}#mermaid-1760708711350 .edgeLabel p{background-color:rgba(232,232,232, 0.8);}#mermaid-1760708711350 .edgeLabel rect{opacity:0.5;background-color:rgba(232,232,232, 0.8);fill:rgba(232,232,232, 0.8);}#mermaid-1760708711350 .labelBkg{background-color:rgba(232, 232, 232, 0.5);}#mermaid-1760708711350 .cluster rect{fill:#ffffde;stroke:#aaaa33;stroke-width:1px;}#mermaid-1760708711350 .cluster text{fill:var(--alloy-alias-color-text-light);}#mermaid-1760708711350 .cluster span{color:var(--alloy-alias-color-text-light);}#mermaid-1760708711350 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:Lato;font-size:12px;background:hsl(80, 100%, 96.2745098039%);border:1px solid #aaaa33;border-radius:2px;pointer-events:none;z-index:100;}#mermaid-1760708711350 .flowchartTitleText{text-anchor:middle;font-size:18px;fill:var(--alloy-alias-color-text-light);}#mermaid-1760708711350 rect.text{fill:none;stroke-width:0;}#mermaid-1760708711350 .icon-shape,#mermaid-1760708711350 .image-shape{background-color:rgba(232,232,232, 0.8);text-align:center;}#mermaid-1760708711350 .icon-shape p,#mermaid-1760708711350 .image-shape p{background-color:rgba(232,232,232, 0.8);padding:2px;}#mermaid-1760708711350 .icon-shape rect,#mermaid-1760708711350 .image-shape rect{opacity:0.5;background-color:rgba(232,232,232, 0.8);fill:rgba(232,232,232, 0.8);}#mermaid-1760708711350 :root{--mermaid-font-family:\"trebuchet ms\",verdana,arial,sans-serif;}sympl-primary-buttonsympl-iconsympl-countsympl-calendar-footersympl-dialogsympl-overlay-panelsympl-split-buttonsympl-toast-item"
+    ]
+    },
+    "usage2": {
+    "title": "Usage",
+    "content": [
+      "A Button is used to execute or initiate an action. Before using the Button component, consider the following usage guidelines:"
+    ]
+    },
+    "use_when2": {
+    "title": "Use when ...",
+    "content": [
+      "A component is needed to act as a call to action.A component is needed to move a user through a sequence of screens."
+    ]
+    },
+    "do_not_use_when2": {
+    "title": "Do not use when ...",
+    "content": [
+      "A user may select from multiple actions on a page. Consider using a Quick Menu or Tools Menu instead.A user must complete a process. Consider using a Stepper instead.",
+      "The Alloy Design System offers four types of buttons. These include: Primary, Secondary, Tertiary, and Icon. Guidelines for using these button types are defined in the following table.",
+      "ButtonUse whenDo not use whenPrimaryUse as the principal call to action on a screen. Ideally, primary buttons should only appear once per screen (not including the application header or in a modal dialog). Remaining calls to action should be represented as lower emphasis buttons.A user should navigate to a different screen. Consider using a Link instead.SecondaryAn additional call to action must be represented.A primary button has not been used.TertiaryA third call to action must be represented.A primary and secondary button have not been used.IconA call to action is needed, usually within a Data Grid."
+    ]
+    },
+    "format2": {
+    "title": "Format",
+    "content": [
+      "When formatting the Button component, keep the following do's and don'ts in mind:",
+      "Do\n   Grouping:Button groups should be right-aligned at the bottom.Spacing of 16 px should be used between buttons.Icons:Only use a right-pointing arrow when placed to right of button label.Only use one icon at a time within the same button.Only use the \"si-loader\" icon to represent loading action.Only use the \"si-sparkles\" icon in the symplrAI button.*Reach out to the Alloy team for permission to use any other icon style in this placement.Labels:Should be displayed in a single line and not wrap.Should be in sentence case.Should contain no more than two words, if possible.Should reflect action to be completed when pressed.\n   \n    \n    Don't\n   Colors:Change the button color to red to indicate destructive action.Change the colors used in any button type.Icons:Use a right icon and count within the same button.Use both an assigned and free icon within the same button.Use more than one icon at a time within the same button.Labels:Use title case for button labels.Wrap button label text.Size:Mix button sizes in the same component.",
+      "For formatting recommendations for each button type, please refer to the following table.",
+      "ButtonLabelsPlacementPrimaryIf more than one word, only the first word is capitalized.Example: \"Save report\"Use to represent action of primary button.Example: \"Save\"The primary button should be place on the far right.SecondaryIf more than one word, only the first word is capitalized.Example: \"Learn more\"Use to represent opposite action of primary button.Example: \"Cancel\"Place secondary buttons to the left of primary buttons.TertiaryIf more than one word, only the first word is capitalized.Example: \"Search providers\"Place tertiary buttons to the left of secondary and primary buttons.IconIcon buttons may, or may not, include labels.Recommend limiting amount of text to one word.May be used inside a Data Grid.",
+      "CAUTION: Stand-alone icons may not be used to trigger an action. To trigger an action, you must use the Icon Button component, as noted above."
+    ]
+    },
+  "tag": {
+   "title": "A Tag is used to categorize information or display the status of an element.",
+   "content": [
+    "OverviewAPIGuidelinesDesignAccessibility\n \n  TAG TEXTShow codePropertiesNameDescriptionDefaultControl Hide props itemspropsHide props itemstextText to display in the tag. This is required.stringTAG TEXTiconAlloy icon to show in the tag.stringSet stringseveritySeverity of the tag.\"critical\"\"draft\"\"info\"\"new\"\"primary\"\"success\"\"warning\"'primary'Choose option...criticaldraftinfonewprimarysuccesswarningsizeSize of the tag.\"lg\"\"md\"\"sm\"'md'lgmdsmvariantVariant of the tag.\"default\"\"inverse\"\"text\"'default'defaultinversetextVariationsListed below are variations of the component.StoriesDefault\n \n  TAG TEXTShow codeStar Wars, the Star Wars logo, all names and pictures of Star Wars characters,\nvehicles, and any other Star Wars related items are registered trademarks\nand/or copyrights of Lucasfilm Ltd., or their respective trademark and\ncopyright holders.sympl-tag\nPropertiesPropertyAttributeDescriptionTypeDefaulticoniconAlloy icon to show in the tag.stringundefinedseverityseveritySeverity of the tag.\"critical\" \\| \"draft\" \\| \"info\" \\| \"new\" \\| \"primary\" \\| \"success\" \\| \"warning\"'primary'sizesizeSize of the tag.\"lg\" \\| \"md\" \\| \"sm\"'md'texttextText to display in the tag. This is required.stringundefinedvariantvariantVariant of the tag.\"default\" \\| \"inverse\" \\| \"text\"'default'\nDependenciesDepends onsympl-iconGraph#mermaid-1760709360809{font-family:Lato;font-size:0.875rem;fill:var(--alloy-alias-color-text-light);}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mermaid-1760709360809 .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mermaid-1760709360809 .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mermaid-1760709360809 .error-icon{fill:#552222;}#mermaid-1760709360809 .error-text{fill:#552222;stroke:#552222;}#mermaid-1760709360809 .edge-thickness-normal{stroke-width:1px;}#mermaid-1760709360809 .edge-thickness-thick{stroke-width:3.5px;}#mermaid-1760709360809 .edge-pattern-solid{stroke-dasharray:0;}#mermaid-1760709360809 .edge-thickness-invisible{stroke-width:0;fill:none;}#mermaid-1760709360809 .edge-pattern-dashed{stroke-dasharray:3;}#mermaid-1760709360809 .edge-pattern-dotted{stroke-dasharray:2;}#mermaid-1760709360809 .marker{fill:var(--alloy-alias-color-border-default);stroke:var(--alloy-alias-color-border-default);}#mermaid-1760709360809 .marker.cross{stroke:var(--alloy-alias-color-border-default);}#mermaid-1760709360809 svg{font-family:Lato;font-size:0.875rem;}#mermaid-1760709360809 p{margin:0;}#mermaid-1760709360809 .label{font-family:Lato;color:var(--alloy-alias-color-text-light);}#mermaid-1760709360809 .cluster-label text{fill:var(--alloy-alias-color-text-light);}#mermaid-1760709360809 .cluster-label span{color:var(--alloy-alias-color-text-light);}#mermaid-1760709360809 .cluster-label span p{background-color:transparent;}#mermaid-1760709360809 .label text,#mermaid-1760709360809 span{fill:var(--alloy-alias-color-text-light);color:var(--alloy-alias-color-text-light);}#mermaid-1760709360809 .node rect,#mermaid-1760709360809 .node circle,#mermaid-1760709360809 .node ellipse,#mermaid-1760709360809 .node polygon,#mermaid-1760709360809 .node path{fill:var(--alloy-alias-color-data-default-08);stroke:#000;stroke-width:1px;}#mermaid-1760709360809 .rough-node .label text,#mermaid-1760709360809 .node .label text,#mermaid-1760709360809 .image-shape .label,#mermaid-1760709360809 .icon-shape .label{text-anchor:middle;}#mermaid-1760709360809 .node .katex path{fill:#000;stroke:#000;stroke-width:1px;}#mermaid-1760709360809 .rough-node .label,#mermaid-1760709360809 .node .label,#mermaid-1760709360809 .image-shape .label,#mermaid-1760709360809 .icon-shape .label{text-align:center;}#mermaid-1760709360809 .node.clickable{cursor:pointer;}#mermaid-1760709360809 .root .anchor path{fill:var(--alloy-alias-color-border-default)!important;stroke-width:0;stroke:var(--alloy-alias-color-border-default);}#mermaid-1760709360809 .arrowheadPath{fill:#333333;}#mermaid-1760709360809 .edgePath .path{stroke:var(--alloy-alias-color-border-default);stroke-width:2.0px;}#mermaid-1760709360809 .flowchart-link{stroke:var(--alloy-alias-color-border-default);fill:none;}#mermaid-1760709360809 .edgeLabel{background-color:rgba(232,232,232, 0.8);text-align:center;}#mermaid-1760709360809 .edgeLabel p{background-color:rgba(232,232,232, 0.8);}#mermaid-1760709360809 .edgeLabel rect{opacity:0.5;background-color:rgba(232,232,232, 0.8);fill:rgba(232,232,232, 0.8);}#mermaid-1760709360809 .labelBkg{background-color:rgba(232, 232, 232, 0.5);}#mermaid-1760709360809 .cluster rect{fill:#ffffde;stroke:#aaaa33;stroke-width:1px;}#mermaid-1760709360809 .cluster text{fill:var(--alloy-alias-color-text-light);}#mermaid-1760709360809 .cluster span{color:var(--alloy-alias-color-text-light);}#mermaid-1760709360809 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:Lato;font-size:12px;background:hsl(80, 100%, 96.2745098039%);border:1px solid #aaaa33;border-radius:2px;pointer-events:none;z-index:100;}#mermaid-1760709360809 .flowchartTitleText{text-anchor:middle;font-size:18px;fill:var(--alloy-alias-color-text-light);}#mermaid-1760709360809 rect.text{fill:none;stroke-width:0;}#mermaid-1760709360809 .icon-shape,#mermaid-1760709360809 .image-shape{background-color:rgba(232,232,232, 0.8);text-align:center;}#mermaid-1760709360809 .icon-shape p,#mermaid-1760709360809 .image-shape p{background-color:rgba(232,232,232, 0.8);padding:2px;}#mermaid-1760709360809 .icon-shape rect,#mermaid-1760709360809 .image-shape rect{opacity:0.5;background-color:rgba(232,232,232, 0.8);fill:rgba(232,232,232, 0.8);}#mermaid-1760709360809 :root{--mermaid-font-family:\"trebuchet ms\",verdana,arial,sans-serif;}sympl-tagsympl-icon\nBuilt with StencilJSUsageA Tag is used to categorize information or display the status of an element. The Alloy Tag component has been built with the following properties that may be configured to suit your specific needs:severity (critical, draft, info, new, primary, success, warning)size (sm, md, lg)variants (default, inverse, text)NOTE: The Tag component is not interactive.Before using the Tag component, consider the following usage guidelines:\nUse when …A component is needed that will alert a user to new or important information (e.g., a new provider record).A component is needed that will display the status of an element (e.g., an expired license).A component is needed that will visually categorize multiple types of information (e.g., active and inactive coverage).Do not use when …A component is needed that can be dismissed/removed by the user (e.g., a filter). Consider using a Chip instead.A component is needed that, when clicked, will navigate the user to a different page or separate tab. Consider using a Link instead.A component is needed to represent a number or count of items. Consider using a Count instead.A component is needed to represent a selected filter (e.g., above a Data Grid) or date (e.g., within a Non-contiguous Date Picker). Consider using a Chip instead.FormatWhen formatting the Tag, keep the following do's and don'ts in mind.\n   \n    \n    Do\n   Ensure Tag text is concise, in all caps, and fewer than 20 characters, if possible.If displaying an icon, ensure it corresponds to the Tag severity as noted in the Icons section below.Keep number of Tags on a page to a minimum so their importance is not diluted.\n   \n    \n    Don't\n   Display too many Tags on a single page.Include a dismiss/remove \"x\" icon, as Tags are not actionable.Place in the same container as a button, or buttons.Programmatically change the colors used in the Tag.IconsTo offer additional flexibility, the Tag component has been built in such a way that the icon and severity have not been coupled. However, if using the Tag component to display a standard status, we strongly recommend its corresponding icon be used (refer to the following table).SeverityPreferred iconcriticalsi-alert-triangledraftsi-file-textinfosi-info-squarenewsi-megaphone-2successsi-check-circle-3warningsi-alert-diamondResourcesPrimeNGYou must enable third-party cookies to interact with Figma.Accessibility requirements based on WCAG guidelines for this component are in development."
+   ]
+  },
+  "properties": {
+   "title": "Properties",
+   "content": [
+    "PropertyAttributeDescriptionTypeDefaulticoniconAlloy icon to show in the tag.stringundefinedseverityseveritySeverity of the tag.\"critical\" \\| \"draft\" \\| \"info\" \\| \"new\" \\| \"primary\" \\| \"success\" \\| \"warning\"'primary'sizesizeSize of the tag.\"lg\" \\| \"md\" \\| \"sm\"'md'texttextText to display in the tag. This is required.stringundefinedvariantvariantVariant of the tag.\"default\" \\| \"inverse\" \\| \"text\"'default'"
+   ]
+  },
+  "variations": {
+   "title": "Variations",
+   "content": [
+    "Listed below are variations of the component."
+   ]
+  },
+  "stories": {
+   "title": "Stories",
+   "content": [
+    "Default\n \n  TAG TEXTShow code",
+    "Star Wars, the Star Wars logo, all names and pictures of Star Wars characters,\nvehicles, and any other Star Wars related items are registered trademarks\nand/or copyrights of Lucasfilm Ltd., or their respective trademark and\ncopyright holders."
+   ]
+  },
+  "graph": {
+   "title": "Graph",
+   "content": [
+    "#mermaid-1760709360809{font-family:Lato;font-size:0.875rem;fill:var(--alloy-alias-color-text-light);}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#mermaid-1760709360809 .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#mermaid-1760709360809 .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#mermaid-1760709360809 .error-icon{fill:#552222;}#mermaid-1760709360809 .error-text{fill:#552222;stroke:#552222;}#mermaid-1760709360809 .edge-thickness-normal{stroke-width:1px;}#mermaid-1760709360809 .edge-thickness-thick{stroke-width:3.5px;}#mermaid-1760709360809 .edge-pattern-solid{stroke-dasharray:0;}#mermaid-1760709360809 .edge-thickness-invisible{stroke-width:0;fill:none;}#mermaid-1760709360809 .edge-pattern-dashed{stroke-dasharray:3;}#mermaid-1760709360809 .edge-pattern-dotted{stroke-dasharray:2;}#mermaid-1760709360809 .marker{fill:var(--alloy-alias-color-border-default);stroke:var(--alloy-alias-color-border-default);}#mermaid-1760709360809 .marker.cross{stroke:var(--alloy-alias-color-border-default);}#mermaid-1760709360809 svg{font-family:Lato;font-size:0.875rem;}#mermaid-1760709360809 p{margin:0;}#mermaid-1760709360809 .label{font-family:Lato;color:var(--alloy-alias-color-text-light);}#mermaid-1760709360809 .cluster-label text{fill:var(--alloy-alias-color-text-light);}#mermaid-1760709360809 .cluster-label span{color:var(--alloy-alias-color-text-light);}#mermaid-1760709360809 .cluster-label span p{background-color:transparent;}#mermaid-1760709360809 .label text,#mermaid-1760709360809 span{fill:var(--alloy-alias-color-text-light);color:var(--alloy-alias-color-text-light);}#mermaid-1760709360809 .node rect,#mermaid-1760709360809 .node circle,#mermaid-1760709360809 .node ellipse,#mermaid-1760709360809 .node polygon,#mermaid-1760709360809 .node path{fill:var(--alloy-alias-color-data-default-08);stroke:#000;stroke-width:1px;}#mermaid-1760709360809 .rough-node .label text,#mermaid-1760709360809 .node .label text,#mermaid-1760709360809 .image-shape .label,#mermaid-1760709360809 .icon-shape .label{text-anchor:middle;}#mermaid-1760709360809 .node .katex path{fill:#000;stroke:#000;stroke-width:1px;}#mermaid-1760709360809 .rough-node .label,#mermaid-1760709360809 .node .label,#mermaid-1760709360809 .image-shape .label,#mermaid-1760709360809 .icon-shape .label{text-align:center;}#mermaid-1760709360809 .node.clickable{cursor:pointer;}#mermaid-1760709360809 .root .anchor path{fill:var(--alloy-alias-color-border-default)!important;stroke-width:0;stroke:var(--alloy-alias-color-border-default);}#mermaid-1760709360809 .arrowheadPath{fill:#333333;}#mermaid-1760709360809 .edgePath .path{stroke:var(--alloy-alias-color-border-default);stroke-width:2.0px;}#mermaid-1760709360809 .flowchart-link{stroke:var(--alloy-alias-color-border-default);fill:none;}#mermaid-1760709360809 .edgeLabel{background-color:rgba(232,232,232, 0.8);text-align:center;}#mermaid-1760709360809 .edgeLabel p{background-color:rgba(232,232,232, 0.8);}#mermaid-1760709360809 .edgeLabel rect{opacity:0.5;background-color:rgba(232,232,232, 0.8);fill:rgba(232,232,232, 0.8);}#mermaid-1760709360809 .labelBkg{background-color:rgba(232, 232, 232, 0.5);}#mermaid-1760709360809 .cluster rect{fill:#ffffde;stroke:#aaaa33;stroke-width:1px;}#mermaid-1760709360809 .cluster text{fill:var(--alloy-alias-color-text-light);}#mermaid-1760709360809 .cluster span{color:var(--alloy-alias-color-text-light);}#mermaid-1760709360809 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:Lato;font-size:12px;background:hsl(80, 100%, 96.2745098039%);border:1px solid #aaaa33;border-radius:2px;pointer-events:none;z-index:100;}#mermaid-1760709360809 .flowchartTitleText{text-anchor:middle;font-size:18px;fill:var(--alloy-alias-color-text-light);}#mermaid-1760709360809 rect.text{fill:none;stroke-width:0;}#mermaid-1760709360809 .icon-shape,#mermaid-1760709360809 .image-shape{background-color:rgba(232,232,232, 0.8);text-align:center;}#mermaid-1760709360809 .icon-shape p,#mermaid-1760709360809 .image-shape p{background-color:rgba(232,232,232, 0.8);padding:2px;}#mermaid-1760709360809 .icon-shape rect,#mermaid-1760709360809 .image-shape rect{opacity:0.5;background-color:rgba(232,232,232, 0.8);fill:rgba(232,232,232, 0.8);}#mermaid-1760709360809 :root{--mermaid-font-family:\"trebuchet ms\",verdana,arial,sans-serif;}sympl-tagsympl-icon"
+   ]
+  },
+  "usage": {
+   "title": "Usage",
+   "content": [
+    "A Tag is used to categorize information or display the status of an element. The Alloy Tag component has been built with the following properties that may be configured to suit your specific needs:",
+    "severity (critical, draft, info, new, primary, success, warning)size (sm, md, lg)variants (default, inverse, text)",
+    "NOTE: The Tag component is not interactive.",
+    "Before using the Tag component, consider the following usage guidelines:"
+   ]
+  },
+  "use_when": {
+   "title": "Use when …",
+   "content": [
+    "A component is needed that will alert a user to new or important information (e.g., a new provider record).A component is needed that will display the status of an element (e.g., an expired license).A component is needed that will visually categorize multiple types of information (e.g., active and inactive coverage)."
+   ]
+  },
+  "do_not_use_when": {
+   "title": "Do not use when …",
+   "content": [
+    "A component is needed that can be dismissed/removed by the user (e.g., a filter). Consider using a Chip instead.A component is needed that, when clicked, will navigate the user to a different page or separate tab. Consider using a Link instead.A component is needed to represent a number or count of items. Consider using a Count instead.A component is needed to represent a selected filter (e.g., above a Data Grid) or date (e.g., within a Non-contiguous Date Picker). Consider using a Chip instead."
+   ]
+  },
+  "format3": {
+   "title": "Format",
+   "content": [
+    "When formatting the Tag, keep the following do's and don'ts in mind.",
+    "Do\n   Ensure Tag text is concise, in all caps, and fewer than 20 characters, if possible.If displaying an icon, ensure it corresponds to the Tag severity as noted in the Icons section below.Keep number of Tags on a page to a minimum so their importance is not diluted.\n   \n    \n    Don't\n   Display too many Tags on a single page.Include a dismiss/remove \"x\" icon, as Tags are not actionable.Place in the same container as a button, or buttons.Programmatically change the colors used in the Tag."
+   ]
+  },
+  "icons": {
+   "title": "Icons",
+   "content": [
+    "To offer additional flexibility, the Tag component has been built in such a way that the icon and severity have not been coupled. However, if using the Tag component to display a standard status, we strongly recommend its corresponding icon be used (refer to the following table).",
+    "SeverityPreferred iconcriticalsi-alert-triangledraftsi-file-textinfosi-info-squarenewsi-megaphone-2successsi-check-circle-3warningsi-alert-diamond"
+   ]
+  },
+  "form_design": {
+    "title": "Form design",
+    "content": [
+      "UsageStyleGuidelinesNon-editable input fieldsIf you aren't sure whether a non-editable input field should appear disabled or read-only, ask yourself:Does the user need to see the non-editable input field and/or its contents?If \"No\" then it should not appear on the form.If \"Yes\" then move to the next question.Do the contents (whether filled or blank) of the non-editable input field need to be sent upon submission of the form?If \"No\" then the input field should appear as disabled. (Alloy styling is 50% opacity.)If \"Yes\" then the input field should appear as read-only. (Alloy styling is using the read-only interaction state.)Comparison of interaction statesRefer to the following table for additional clarification on the differences between an input field's enabled, disabled, and read-only interaction states.EnabledRead-onlyDisabledCan be edited Can be focused upon Can generate UI events Can interact with scrollbar Can select contents FormatWhen designing a form, keep the following do's and don'ts in mind:Button and field labels",
+      "Ensure a button label describes the button action.Label every field (sentence case).Keep labels short, if possible.",
+      "Use placeholders in place of a label.Label field and button labels in all caps.Use long labels.Checkboxes and radio groups",
+      "Align checkboxes and radio groups vertically, if possible.Display all radio group options unless greater than six.**Consider using a dropdown instead.",
+      "Display options in a radio group if there are more than six.Fields",
+      "Design a field's length to match the intended input.Group fields that are related.Spacing (vertical) between fields should be 16 px.Use the appropriate input component.Use dropdown component if number of options is >5.** If number of options is >25, include a search option.Layout",
+      "Use a one-column layout, except in cases where a multi-column layout is logical for proximal placement of like fields, and is possible given the device upon which the form is displayed (e.g., desktop or tablet).",
+      "Use a multi-column layout, if possible.Required fieldsWhen formatting a field that is required, keep these do's and don'ts in mind:",
+      "Add padding between fields to prevent content shifting.Error message should indicate the field is required.Error message should replace Helper text (if present).Error validation occurs after user interacts with field.Include an asterisk to the right of the field label. Asterisk color: --alloy-alias-color-status-critical-strongReference: Form design best practicesIn development."
+    ]
+  },
+  "non_editable_input_fields": {
+    "title": "Non-editable input fields",
+    "content": [
+      "If you aren't sure whether a non-editable input field should appear disabled or read-only, ask yourself:",
+      "Does the user need to see the non-editable input field and/or its contents?If \"No\" then it should not appear on the form.If \"Yes\" then move to the next question.Do the contents (whether filled or blank) of the non-editable input field need to be sent upon submission of the form?If \"No\" then the input field should appear as disabled. (Alloy styling is 50% opacity.)If \"Yes\" then the input field should appear as read-only. (Alloy styling is using the read-only interaction state.)"
+    ]
+  },
+  "comparison_of_interaction_states": {
+    "title": "Comparison of interaction states",
+    "content": [
+      "Refer to the following table for additional clarification on the differences between an input field's enabled, disabled, and read-only interaction states.",
+      "EnabledRead-onlyDisabledCan be edited Can be focused upon Can generate UI events Can interact with scrollbar Can select contents "
+    ]
+  },
+  "format": {
+    "title": "Format",
+    "content": [
+      "When designing a form, keep the following do's and don'ts in mind:"
+    ]
+  },
+  "button_and_field_labels": {
+    "title": "Button and field labels",
+    "content": [
+      "Ensure a button label describes the button action.Label every field (sentence case).Keep labels short, if possible.",
+      "Use placeholders in place of a label.Label field and button labels in all caps.Use long labels."
+    ]
+  },
+  "checkboxes_and_radio_groups": {
+    "title": "Checkboxes and radio groups",
+    "content": [
+      "Align checkboxes and radio groups vertically, if possible.Display all radio group options unless greater than six.**Consider using a dropdown instead.",
+      "Display options in a radio group if there are more than six."
+    ]
+  },
+  "fields": {
+    "title": "Fields",
+    "content": [
+      "Design a field's length to match the intended input.Group fields that are related.Spacing (vertical) between fields should be 16 px.Use the appropriate input component.Use dropdown component if number of options is >5.** If number of options is >25, include a search option."
+    ]
+  },
+  "layout": {
+    "title": "Layout",
+    "content": [
+      "Use a one-column layout, except in cases where a multi-column layout is logical for proximal placement of like fields, and is possible given the device upon which the form is displayed (e.g., desktop or tablet).",
+      "Use a multi-column layout, if possible."
+    ]
+  },
+  "required_fields": {
+    "title": "Required fields",
+    "content": [
+      "When formatting a field that is required, keep these do's and don'ts in mind:",
+      "Add padding between fields to prevent content shifting.Error message should indicate the field is required.Error message should replace Helper text (if present).Error validation occurs after user interacts with field.Include an asterisk to the right of the field label. Asterisk color: --alloy-alias-color-status-critical-strong",
+      "Reference: Form design best practices"
+    ]
+  }
+}
+ }
